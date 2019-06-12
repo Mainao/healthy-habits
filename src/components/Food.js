@@ -23,17 +23,17 @@ class Food extends Component {
 	getFoodDetails = (food,value) => {
 		let foodDetails = [];
 		// get keys from object
-		let arr = Object.keys(FoodData);
+		let keyArray = Object.keys(FoodData);
 		// sort keys array based on calorie value
-		arr.sort(function(a, b) {
+		keyArray.sort(function(a, b) {
   			return FoodData[b].calories - FoodData[a].calories;
 		});
 		// iterate key array and assign rank value to object
-		for (let i = 0, rank = 1; i < arr.length; i++) {
-		  // assign rank value
-		  FoodData[arr[i]].rank = rank;
-		  // increment rank only if calorie value is changed
-		  if (FoodData[arr[i + 1]] && FoodData[arr[i]].calories !== FoodData[arr[i + 1]].calories)
+		for (let i = 0, rank = 1; i < keyArray.length; i++) {
+		  	// assign rank value
+			FoodData[keyArray[i]].rank = rank;
+		  	// increment rank only if calorie value is changed
+		  	if (FoodData[keyArray[i + 1]] && FoodData[keyArray[i]].calories !== FoodData[keyArray[i + 1]].calories)
 		    rank++;
 		}
 		foodDetails = this.state.suggestions.filter( suggestion => suggestion.id === food);
@@ -60,8 +60,8 @@ class Food extends Component {
 	renderFoodDetails() {
 		const { foodDetails } = this.state;
 		const imgDiv = {
-			height: '100px',
-			width: '100px',
+			minHeight: '100px',
+			minWidth: '100px',
 			backgroundColor: '#eee'
 		};
 		if(foodDetails.length === 0) {
@@ -90,7 +90,7 @@ class Food extends Component {
 								<div className="mr-4"><div><strong>{foodDetails[0].fat}g</strong></div>
 								<small className="text-muted">Total fat</small></div>
 								<div className="mr-4"><div><strong>{foodDetails[0].carbs}g</strong></div>
-								<small className="text-muted">Total carbs</small></div>
+								<small className="text-muted">Total carbohydrate</small></div>
 								<div className="mr-4"><div><strong>{foodDetails[0].protein}g</strong></div>
 								<small className="text-muted">Protein</small></div>
 							</div>
