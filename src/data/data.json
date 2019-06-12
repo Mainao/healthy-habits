@@ -1,0 +1,36 @@
+[ 
+    {
+        "id": 1,
+        "name": "Coke",
+        "description": "Sweetened, carbonated soft drink flavored with vanilla, cinnamon, citrus oils and other flavorings",
+        "calories": 41,
+        "fat": 0,
+        "carbs": 11,
+        "protein": 0,
+        "ingredients": ["Carbonated water", "Sugar", "Caramel color", "Phosphoric Acid", "Caffeine"],
+        "image": "https://source.unsplash.com/200x200/daily?coke"
+    },
+
+    {
+        "id": 2,
+        "name": "Fries",
+        "description": "Thin strips of potato that have been deep-fried",
+        "calories": 230,
+        "fat": 11,
+        "carbs": 29,
+        "protein": 3,
+        "ingredients": ["Potatoes", "Vagetable oil", "Dextrose", "Sodium Acid Pyrophosphate", "Salt"],
+        "image": "https://source.unsplash.com/200x200/daily?french-fries,potato"
+    },
+    {
+        "id": 3,
+        "name": "Fried Chicken",
+        "description": "Consisting of chicken pieces which have been coated in a seasoned batter and pan-fried, deep fried, or pressure fried",
+        "calories": 246,
+        "fat": 11,
+        "carbs": 1.8,
+        "protein": 12,
+        "ingredients": ["Chicken", "Flour", "Egg", "Milk", "Leavening agents", "Salt", "Pepper", "Paprika", "Garlic powder", "Onion powder"],
+        "image": "https://source.unsplash.com/200x200/daily?fried-chicken-wings"
+    }
+]
