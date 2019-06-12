@@ -10,7 +10,6 @@
         "ingredients": ["Carbonated water", "Sugar", "Caramel color", "Phosphoric Acid", "Caffeine"],
         "image": "https://source.unsplash.com/200x200/daily?coke"
     },
-
     {
         "id": 2,
         "name": "Fries",
@@ -19,11 +18,22 @@
         "fat": 11,
         "carbs": 29,
         "protein": 3,
-        "ingredients": ["Potatoes", "Vagetable oil", "Dextrose", "Sodium Acid Pyrophosphate", "Salt"],
+        "ingredients": ["Potatoes", "Vegetable oil", "Dextrose", "Sodium Acid Pyrophosphate", "Salt"],
         "image": "https://source.unsplash.com/200x200/daily?french-fries,potato"
     },
     {
         "id": 3,
+        "name": "Fried Bacon",
+        "description": "Bacon is a type of salt-cured pork. Bacon is prepared from several different cuts of meat, typically from the pork belly or from back cuts, which have less fat than the belly",
+        "calories": 541,
+        "fat": 42,
+        "carbs": 29,
+        "protein": 37,
+        "ingredients": ["Pork", "Water", "Potassium lactatee", "Salt", "Sugar", "Sodium phosphate", "Sodium diacetate", "Sodium erythorbate", "Sodium nitrite", "Smoke"],
+        "image": "https://source.unsplash.com/200x200/daily?fried-bacon"
+    },
+    {
+        "id": 4,
         "name": "Fried Chicken",
         "description": "Consisting of chicken pieces which have been coated in a seasoned batter and pan-fried, deep fried, or pressure fried",
         "calories": 246,
@@ -32,5 +42,181 @@
         "protein": 12,
         "ingredients": ["Chicken", "Flour", "Egg", "Milk", "Leavening agents", "Salt", "Pepper", "Paprika", "Garlic powder", "Onion powder"],
         "image": "https://source.unsplash.com/200x200/daily?fried-chicken-wings"
+    },
+    {
+        "id": 5,
+        "name": "Potato Chips",
+        "description": "Potato chips, or crisps, are thin slices of potato that have been deep fried or baked until crunchy",
+        "calories": 536,
+        "fat": 35,
+        "carbs": 1.8,
+        "protein": 7,
+        "ingredients": ["Potato", "Oil", "Salt", "Preservatives", "Seasoning", "Flavour"],
+        "image": "https://source.unsplash.com/200x200/daily?potato-chips"
+    },
+    {
+        "id": 6,
+        "name": "Cheesecake",
+        "description": "Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest layer, consists of a mixture of soft, fresh cheese, eggs, and sugar. If there is a bottom layer, it often consists of a crust or base made from crushed cookies, graham crackers, pastry, or sometimes sponge cake",
+        "calories": 321,
+        "fat": 23,
+        "carbs": 1.8,
+        "protein": 6,
+        "ingredients": ["Cream Cheese", "Sour Cream", "Condensed Milk", "Chocolate chips", "Garnish", "Sugar", "Ricotta"],
+        "image": "https://source.unsplash.com/200x200/daily?cheesecake"
+    },
+    {
+        "id": 7,
+        "name": "Chicken Nuggets",
+        "description": "A chicken nugget is a chicken product made from chicken meat that is breaded or battered, then deep-fried or baked",
+        "calories": 296,
+        "fat": 20,
+        "carbs": 1.8,
+        "protein": 15,
+        "ingredients": ["White boneless chicken", "Water", "Salt", "Yeast extract", "Wheat starch", "Natural flavorings", "Sunflower oil", "Lemon juice solids", "Dextrose", "Citric acid", "Sodium"],
+        "image": "https://source.unsplash.com/200x200/daily?chicken-nuggets"
+    },
+    {
+        "id": 8,
+        "name": "Chocolate Bar",
+        "description": "A chocolate bar is a chocolate confection in an oblong or rectangular form, which distinguishes it from bulk dark chocolate produced for commercial use or individually portioned chocolates such as pastilles, bonbons and truffles",
+        "calories": 556,
+        "fat": 32,
+        "carbs": 1.8,
+        "protein": 6,
+        "ingredients": ["Cocoa Butter", "Milk", "Sugar", "Lecithin"],
+        "image": "https://source.unsplash.com/200x200/daily?chocolate,bar"
+    },
+    {
+        "id": 9,
+        "name": "Biscuits",
+        "description": "A cookie is a baked or cooked food that is typically small, flat and sweet",
+        "calories": 502,
+        "fat": 24,
+        "carbs": 1.8,
+        "protein": 6,
+        "ingredients": ["Flour", "Sugar", "Oil"],
+        "image": "https://source.unsplash.com/200x200/daily?biscuits"
+    },
+    {
+        "id": 10,
+        "name": "Cupcakes",
+        "description": "A cupcake is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup",
+        "calories": 305,
+        "fat": 3.7,
+        "carbs": 1.8,
+        "protein": 4.3,
+        "ingredients": ["Butter", "Sugar", "Flour", "Salt", "Egg", "Milk"],
+        "image": "https://source.unsplash.com/200x200/daily?cupcakes"
+    },
+    {
+        "id": 11,
+        "name": "Doughnuts",
+        "description": "A doughnut or donut is a type of fried dough confection or dessert food",
+        "calories": 452,
+        "fat": 25,
+        "carbs": 1.8,
+        "protein": 4.9,
+        "ingredients": ["Dry yeast", "Milk", "Flour", "Vanilla extracts", "Egg yolk", "Sugar", "Salt"],
+        "image": "https://source.unsplash.com/200x200/daily?doughnuts"
+    },
+    {
+        "id": 12,
+        "name": "Hamburger",
+        "description": "A hamburger is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun",
+        "calories": 295,
+        "fat": 14,
+        "carbs": 1.8,
+        "protein": 17,
+        "ingredients": ["Ground meat", "Bread", "Ketchup"],
+        "image": "https://source.unsplash.com/200x200/daily?hamburger"
+    },
+    {
+        "id": 13,
+        "name": "Doughnuts",
+        "description": "A doughnut or donut is a type of fried dough confection or dessert food",
+        "calories": 452,
+        "fat": 25,
+        "carbs": 1.8,
+        "protein": 4.9,
+        "ingredients": ["Dry yeast", "Milk", "Flour", "Vanilla extracts", "Egg yolk", "Sugar", "Salt"],
+        "image": "https://source.unsplash.com/200x200/daily?doughnuts"
+    },
+    {
+        "id": 14,
+        "name": "Hot Dog",
+        "description": "The hot dog or dog is a grilled or steamed link-sausage sandwich where the sausage is served in the slit of a partially sliced hot dog bun, a bun of size and shape to hold the sausage",
+        "calories": 290,
+        "fat": 26,
+        "carbs": 1.8,
+        "protein": 10,
+        "ingredients": ["Sausage made from pork, beef, chicken, turkey or combinations", "Bun"],
+        "image": "https://source.unsplash.com/200x200/daily?hotdog"
+    },
+    {
+        "id": 15,
+        "name": "Doughnuts",
+        "description": "A doughnut or donut is a type of fried dough confection or dessert food",
+        "calories": 452,
+        "fat": 25,
+        "carbs": 1.8,
+        "protein": 4.9,
+        "ingredients": ["Dry yeast", "Milk", "Flour", "Vanilla extracts", "Egg yolk", "Sugar", "Salt"],
+        "image": "https://source.unsplash.com/200x200/daily?doughnuts"
+    },
+    {
+        "id": 16,
+        "name": "Ice cream (Vanilla)",
+        "description": "Ice cream is a sweetened frozen food typically eaten as a snack or dessert",
+        "calories": 207,
+        "fat": 11,
+        "carbs": 1.8,
+        "protein": 3.5,
+        "ingredients": ["Mammalian milk/plant milk or cream", "sweetener"],
+        "image": "https://source.unsplash.com/200x200/daily?icecream"
+    },
+    {
+        "id": 17,
+        "name": "Nachos",
+        "description": "Nachos is a Mexican dish from northern Mexico that consists of heated tortilla chips or totopos covered with melted cheese, often served as a snack or appetizer",
+        "calories": 306,
+        "fat": 17,
+        "carbs": 1.8,
+        "protein": 8,
+        "ingredients": ["Tortilla chips"],
+        "image": "https://source.unsplash.com/200x200/daily?icecream"
+    },
+    {
+        "id": 18,
+        "name": "Pie (Apple)",
+        "description": "A pie is a baked dish which is usually made of a pastry dough casing that covers or completely contains a filling of various sweet or savoury ingredients",
+        "calories": 237,
+        "fat": 11,
+        "carbs": 1.8,
+        "protein": 1.9,
+        "ingredients": ["Mammalian milk/plant milk or cream", "sweetener"],
+        "image": "https://source.unsplash.com/200x200/daily?apple-pie"
+    },
+    {
+        "id": 19,
+        "name": "Pizza",
+        "description": "Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven",
+        "calories": 266,
+        "fat": 10,
+        "carbs": 1.8,
+        "protein": 11,
+        "ingredients": ["Dough", "Sauce (Usually tomato sauce)", "Cheese"],
+        "image": "https://source.unsplash.com/200x200/daily?pizza"
+    },
+    {
+        "id": 20,
+        "name": "Popcorn",
+        "description": "Popcorn is a variety of corn kernel, which expands and puffs up when heated",
+        "calories": 375,
+        "fat": 4.3,
+        "carbs": 1.8,
+        "protein": 11,
+        "ingredients": ["Corn", "Salt", "Oil"],
+        "image": "https://source.unsplash.com/200x200/daily?popcorn"
     }
 ]
