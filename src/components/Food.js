@@ -21,7 +21,6 @@ class Food extends Component {
 	}
 
 	getFoodDetails = (food,value) => {
-		console.log(this.state.foodDetails);
 		let foodDetails = [];
 		// get keys from object
 		let arr = Object.keys(FoodData);
