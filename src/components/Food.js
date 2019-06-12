@@ -21,12 +21,11 @@ class Food extends Component {
 	}
 
 	getFoodDetails = (food,value) => {
-	
-		
+		console.log(this.state.foodDetails);
 		let foodDetails = [];
 		// get keys from object
 		let arr = Object.keys(FoodData);
-		// sort keys array based on score value
+		// sort keys array based on calorie value
 		arr.sort(function(a, b) {
   			return FoodData[b].calories - FoodData[a].calories;
 		});
@@ -34,14 +33,11 @@ class Food extends Component {
 		for (let i = 0, rank = 1; i < arr.length; i++) {
 		  // assign rank value
 		  FoodData[arr[i]].rank = rank;
-		  // increment rank only if score value is changed
+		  // increment rank only if calorie value is changed
 		  if (FoodData[arr[i + 1]] && FoodData[arr[i]].calories !== FoodData[arr[i + 1]].calories)
 		    rank++;
 		}
-		console.log("Foodsort", FoodData);
 		foodDetails = this.state.suggestions.filter( suggestion => suggestion.id === food);
-
-
 		this.setState(() => ({ 
 			foodDetails,
 			text: value,
@@ -78,10 +74,10 @@ class Food extends Component {
 					<div className="mt-4 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250">
 						<div className="p-4 d-flex flex-column">
 							
-							<h3 className="mb-4">{foodDetails[0].name}</h3>
+							<h3 className="mb-4">{foodDetails[0].name}<span className="text-muted float-right">#{foodDetails[0].rank}</span></h3>
 							<div className="d-md-flex mb-4">
 								<div className="mr-4" style={imgDiv} >
-									<img className="h-100 w-100" src={foodDetails[0].image} alt="food" />
+									<img className="h-auto mw-100 d-block" src={foodDetails[0].image} alt="food" />
 								</div>
 								<p>{foodDetails[0].description}</p>
 							</div>
@@ -98,8 +94,6 @@ class Food extends Component {
 								<small className="text-muted">Total carbs</small></div>
 								<div className="mr-4"><div><strong>{foodDetails[0].protein}g</strong></div>
 								<small className="text-muted">Protein</small></div>
-								<div className="ml-auto text-center"><div className="text-primary"><strong>Calory Ranking</strong></div>
-								<small>{foodDetails[0].rank}</small></div>
 							</div>
 							<h5>Ingredients</h5>
 							<div className="d-flex flex-wrap mb-4 text-muted">
